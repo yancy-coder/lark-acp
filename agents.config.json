@@ -1,0 +1,30 @@
+{
+  "activeAgent": "kimi",
+  "workingDirectory": ".",
+  "agents": {
+    "kimi": {
+      "name": "Kimi Code CLI",
+      "command": "kimi",
+      "args": ["acp"],
+      "env": {}
+    },
+    "claude": {
+      "name": "Claude Code",
+      "command": "claude",
+      "args": ["--acp"],
+      "env": {}
+    },
+    "gemini": {
+      "name": "Gemini CLI",
+      "command": "gemini",
+      "args": ["--acp"],
+      "env": {}
+    },
+    "codex": {
+      "name": "Codex CLI",
+      "command": "codex-acp",
+      "args": [],
+      "env": {}
+    }
+  }
+}
